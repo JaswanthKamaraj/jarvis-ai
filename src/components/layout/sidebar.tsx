@@ -10,7 +10,7 @@ export async function Sidebar() {
   const recentChats = await getRecentChats();
 
   return (
-    <div className="flex h-full w-64 flex-col border-r border-border bg-sidebar text-sidebar-foreground">
+    <div className="hidden md:flex h-full w-64 flex-col border-r border-border bg-sidebar text-sidebar-foreground">
       {/* Brand Header */}
       <div className="flex h-14 items-center justify-between px-4 py-2">
         <div className="flex items-center gap-2 font-bold text-xl">
