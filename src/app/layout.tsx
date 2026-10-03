@@ -7,7 +7,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "ROG AI - Study Assistant",
+  title: "JARVIS AI - Study Assistant",
   description: "Your ultimate AI study material generator and tutor.",
 };
 

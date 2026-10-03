@@ -31,7 +31,7 @@ export async function POST(req: Request) {
 
     const result = await generateObject({
       model: openai("gpt-4o-mini"),
-      system: "You are ROG AI, an expert examiner. Generate a 5-question multiple choice quiz on the requested topic. Ensure it's challenging but fair.",
+      system: "You are JARVIS, an expert AI examiner. Generate a 5-question multiple choice quiz on the requested topic. Ensure it's challenging but fair.",
       prompt: `Topic: ${topic}`,
       schema: z.object({
         quizTitle: z.string(),

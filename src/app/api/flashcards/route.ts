@@ -21,7 +21,7 @@ export async function POST(req: Request) {
 
     const result = await generateObject({
       model: openai("gpt-4o-mini"),
-      system: "You are ROG AI. Create exactly 6 high-quality flashcards for the requested topic. Ensure the answers are concise and easy to memorize.",
+      system: "You are JARVIS, an advanced AI study assistant. Create exactly 6 high-quality flashcards for the requested topic. Ensure the answers are concise and easy to memorize.",
       prompt: `Topic: ${topic}`,
       schema: z.object({
         flashcards: z.array(

@@ -47,66 +47,66 @@
 
 :root {
   /* Default Light Theme */
-  --background: oklch(0.985 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.65 0.25 295); /* ROG Red Accent */
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.96 0 0);
-  --secondary-foreground: oklch(0.145 0 0);
-  --muted: oklch(0.96 0 0);
-  --muted-foreground: oklch(0.55 0 0);
-  --accent: oklch(0.96 0 0);
-  --accent-foreground: oklch(0.145 0 0);
+  --background: #000000;
+  --foreground: #E6F1FF;
+  --card: #0A0F1C;
+  --card-foreground: #E6F1FF;
+  --popover: #05070D;
+  --popover-foreground: #E6F1FF;
+  --primary: #1E90FF; /* Primary blue */
+  --primary-foreground: #E6F1FF;
+  --secondary: #0A0F1C;
+  --secondary-foreground: #E6F1FF;
+  --muted: #05070D;
+  --muted-foreground: #8FA6C4;
+  --accent: #00D4FF; /* Accent cyan */
+  --accent-foreground: #000000;
   --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.985 0 0);
-  --border: oklch(0.9 0 0);
-  --input: oklch(0.9 0 0);
-  --ring: oklch(0.65 0.25 295);
+  --destructive-foreground: #E6F1FF;
+  --border: #12203A;
+  --input: #12203A;
+  --ring: #00D4FF; /* Cyan glow on focus */
   --radius: 0.5rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.65 0.25 295);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.96 0 0);
-  --sidebar-accent-foreground: oklch(0.145 0 0);
-  --sidebar-border: oklch(0.9 0 0);
-  --sidebar-ring: oklch(0.65 0.25 295);
+  --sidebar: #05070D;
+  --sidebar-foreground: #E6F1FF;
+  --sidebar-primary: #1E90FF;
+  --sidebar-primary-foreground: #E6F1FF;
+  --sidebar-accent: #0A0F1C;
+  --sidebar-accent-foreground: #E6F1FF;
+  --sidebar-border: #12203A;
+  --sidebar-ring: #00D4FF;
 }
 
 .dark {
-  /* Premium ROG Dark Theme */
-  --background: oklch(0.13 0 0); /* Very dark gray/black */
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.16 0 0); /* Slightly lighter gray for cards */
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.16 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.65 0.25 295); /* Vivid ROG Red */
-  --primary-foreground: oklch(0.985 0 0); /* White */
-  --secondary: oklch(0.2 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.2 0 0);
-  --muted-foreground: oklch(0.7 0 0);
-  --accent: oklch(0.22 0 0);
-  --accent-foreground: oklch(0.985 0 0);
+  /* Premium JARVIS Dark Theme */
+  --background: #000000; /* Main */
+  --foreground: #E6F1FF;
+  --card: #0A0F1C; /* Cards */
+  --card-foreground: #E6F1FF;
+  --popover: #05070D; /* Panels */
+  --popover-foreground: #E6F1FF;
+  --primary: #1E90FF; /* Primary blue */
+  --primary-foreground: #E6F1FF;
+  --secondary: #0A0F1C;
+  --secondary-foreground: #E6F1FF;
+  --muted: #05070D;
+  --muted-foreground: #8FA6C4;
+  --accent: #00D4FF; /* Accent cyan */
+  --accent-foreground: #000000;
   --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.985 0 0);
-  --border: oklch(0.25 0 0);
-  --input: oklch(0.25 0 0);
-  --ring: oklch(0.65 0.25 295);
+  --destructive-foreground: #E6F1FF;
+  --border: #12203A;
+  --input: #12203A;
+  --ring: #00D4FF; /* Cyan border glow on focus */
   
-  --sidebar: oklch(0.12 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.65 0.25 295);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.2 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(0.22 0 0);
-  --sidebar-ring: oklch(0.65 0.25 295);
+  --sidebar: #05070D;
+  --sidebar-foreground: #E6F1FF;
+  --sidebar-primary: #1E90FF;
+  --sidebar-primary-foreground: #E6F1FF;
+  --sidebar-accent: #0A0F1C;
+  --sidebar-accent-foreground: #E6F1FF;
+  --sidebar-border: #12203A;
+  --sidebar-ring: #00D4FF;
 }
 
 @layer base {

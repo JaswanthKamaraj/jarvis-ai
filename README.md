@@ -1,10 +1,10 @@
-# 🎯 ROG AI - Ultimate Study Assistant
+# 🎯 JARVIS AI - Ultimate Study Assistant
 
-![ROG AI Banner](https://via.placeholder.com/1200x400/130000/980000?text=ROG+AI+-+Study+Assistant)
+![JARVIS AI Banner](https://via.placeholder.com/1200x400/130000/980000?text=JARVIS+AI+-+Study+Assistant)
 
-**ROG AI** is a production-grade, highly interactive educational platform designed to generate complete, exam-ready study materials instantly. Rather than simple short-form chat answers, ROG AI is specialized to construct detailed notes, rapid revision sheets, and interactive 3D flashcards.
+**JARVIS AI** is a production-grade, highly interactive educational platform designed to generate complete, exam-ready study materials instantly. Rather than simple short-form chat answers, JARVIS AI is specialized to construct detailed notes, rapid revision sheets, and interactive 3D flashcards.
 
-Designed with a premium "ROG-inspired" dark aesthetic, the application provides an unparalleled user experience featuring smooth glassmorphism, fluid micro-animations, and custom scrolling mechanics.
+Designed with a premium "JARVIS-inspired" dark aesthetic, the application provides an unparalleled user experience featuring smooth glassmorphism, fluid micro-animations, and custom scrolling mechanics.
 
 ---
 
@@ -42,8 +42,8 @@ Ensure you have the following installed:
 ### 2. Installation
 Clone the repository and install the required dependencies:
 ```bash
-git clone https://github.com/yourusername/rog-ai.git
-cd rog-ai
+git clone https://github.com/yourusername/jarvis-ai.git
+cd jarvis-ai
 npm install
 ```
 
@@ -72,7 +72,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to start stu
 ## 📂 Project Structure
 
 ```text
-rog-ai/
+jarvis-ai/
 ├── prisma/
 │   └── schema.prisma       # Database models (User, Chat, Message, Folder)
 ├── src/

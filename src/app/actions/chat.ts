@@ -16,7 +16,7 @@ async function getOrCreateUser() {
     user = await prisma.user.create({
       data: {
         id: DUMMY_USER_ID,
-        email: "demo@rog.ai",
+        email: "demo@jarvis.ai",
         name: "Demo User",
       },
     });
@@ -54,4 +54,20 @@ export async function saveMessage(chatId: string, role: string, content: string)
       content,
     },
   });
+}
+
+export async function deleteChat(chatId: string) {
+  const userId = await getOrCreateUser();
+  await prisma.chat.deleteMany({
+    where: { id: chatId, userId },
+  });
+  revalidatePath("/");
+}
+
+export async function clearAllChats() {
+  const userId = await getOrCreateUser();
+  await prisma.chat.deleteMany({
+    where: { userId },
+  });
+  revalidatePath("/");
 }
